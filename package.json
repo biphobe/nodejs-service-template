@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-service-template",
+  "version": "1.0.0",
+  "description": "Basic template for nodejs service",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "keywords": [],
+  "author": "biphobe",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^5.0.1",
+    "hapi": "^17.2.2",
+    "isomorphic-fetch": "^2.2.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-node8": "^1.2.0",
+    "babel-register": "^6.26.0"
+  }
+}

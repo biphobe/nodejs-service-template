@@ -1,0 +1,5 @@
+.env.template
+.gitignore
+.docker-compose.yml
+Dockerfile
+package-lock.json
