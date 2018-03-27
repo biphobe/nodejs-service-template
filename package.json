@@ -4,7 +4,8 @@
   "description": "Basic template for nodejs service",
   "main": "index.js",
   "scripts": {
-    "start": "node ./index.js"
+    "start": "node ./index.js",
+    "build": "browserify --node -t [ envify --NODE_ENV production ] -t [ uglifyify ] -t [ babelify ] index.js  -o build/app.js"
   },
   "keywords": [],
   "author": "biphobe",
@@ -17,6 +18,10 @@
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-preset-node8": "^1.2.0",
-    "babel-register": "^6.26.0"
+    "babel-register": "^6.26.0",
+    "babelify": "^8.0.0",
+    "browserify": "^16.1.1",
+    "envify": "^4.1.0",
+    "uglifyify": "^4.0.5"
   }
 }

@@ -3,6 +3,6 @@ WORKDIR /app
 
 COPY . .
 
-CMD [ "node", "index.js" ]
+CMD [ "node", "build/app.js" ]
 
 EXPOSE 3001
